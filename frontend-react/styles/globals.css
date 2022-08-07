@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif cursive;
+  background-color: #f1ede3;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.hide {
+  display: none;
+}
+
+.valid {
+  display: block;
+}
+
+.invalid {
+  display: block;
+}
+
+/* /////////////////////////////////////////////////////////////////// */
+/* 말풍선  */
+
+/* .speech-bubble:after {
+	content: '';
+  color: #FFFFFF;
+  border-radius: .4em;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 0;
+	height: 30;
+	border: 24px solid transparent;
+	border-bottom-color: #BEBBB1;
+	border-top: 0;
+	border-right: 0;
+	margin-left: -150px;
+	margin-top: -24px;
+} */
